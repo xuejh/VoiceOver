@@ -29,6 +29,8 @@
 		F28CDFC12114065C00EA89D5 /* ELEAccessibilityOtherDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28CDFB12114065C00EA89D5 /* ELEAccessibilityOtherDemoViewController.m */; };
 		F28CDFC22114065C00EA89D5 /* ELEAccessibilitySysDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28CDFB32114065C00EA89D5 /* ELEAccessibilitySysDemoViewController.m */; };
 		F28CDFC5211407E200EA89D5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28CDFC4211407E200EA89D5 /* BaseViewController.m */; };
+		F28CDFCA21142C1300EA89D5 /* elearning_sort_icon_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28CDFC821142C1300EA89D5 /* elearning_sort_icon_down@2x.png */; };
+		F28CDFCB21142C1300EA89D5 /* elearning_sort_icon_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28CDFC921142C1300EA89D5 /* elearning_sort_icon_down@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,8 @@
 		F28CDFC3211407E200EA89D5 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		F28CDFC4211407E200EA89D5 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F28CDFC62114083400EA89D5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F28CDFC821142C1300EA89D5 /* elearning_sort_icon_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elearning_sort_icon_down@2x.png"; sourceTree = "<group>"; };
+		F28CDFC921142C1300EA89D5 /* elearning_sort_icon_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elearning_sort_icon_down@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		F28CDF7C211404E200EA89D5 /* VoiceOver */ = {
 			isa = PBXGroup;
 			children = (
+				F28CDFC721142C1300EA89D5 /* image */,
 				F28CDFA42114065C00EA89D5 /* common */,
 				F28CDF932114065B00EA89D5 /* View */,
 				F28CDFA72114065C00EA89D5 /* ViewController */,
@@ -177,6 +182,15 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		F28CDFC721142C1300EA89D5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F28CDFC821142C1300EA89D5 /* elearning_sort_icon_down@2x.png */,
+				F28CDFC921142C1300EA89D5 /* elearning_sort_icon_down@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,7 +251,9 @@
 			files = (
 				F28CDF8A211404E200EA89D5 /* LaunchScreen.storyboard in Resources */,
 				F28CDF87211404E200EA89D5 /* Assets.xcassets in Resources */,
+				F28CDFCB21142C1300EA89D5 /* elearning_sort_icon_down@3x.png in Resources */,
 				F28CDF85211404E200EA89D5 /* Main.storyboard in Resources */,
+				F28CDFCA21142C1300EA89D5 /* elearning_sort_icon_down@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VoiceOver/Header.h";
 				INFOPLIST_FILE = VoiceOver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nd.VoiceOver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,6 +438,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VoiceOver/Header.h";
 				INFOPLIST_FILE = VoiceOver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nd.VoiceOver;
 				PRODUCT_NAME = "$(TARGET_NAME)";

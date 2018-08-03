@@ -28,9 +28,7 @@
     //有图片无文字的button，需要手动增加文字，比如增加"返回"
     //读出"返回-按钮"
     btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    NSString *bundleName = @"elearning_sdp_baseBundle";
-    NSString *name = @"elearning_sort_icon_down";
-    NSString *str = [NSString stringWithFormat:@"%@.bundle/%@", bundleName, name];
+    NSString *str = @"elearning_sort_icon_down";
     [btn setBackgroundImage:[UIImage imageNamed:str] forState:UIControlStateNormal];
     btn.frame = CGRectMake(30, 100, 100, 30);
     [btn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
