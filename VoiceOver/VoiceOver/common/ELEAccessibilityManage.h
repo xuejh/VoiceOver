@@ -8,6 +8,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
+
+//本来想写一个库，简化调用，后来发现没有此库也运行良好，故如果满足需求的话，不建议使用此库。
 //增加宏代码减少代码编写
 #undef    ELE_GEN_ACCESS_FUC
 #define    ELE_GEN_ACCESS_FUC( __objcName) \

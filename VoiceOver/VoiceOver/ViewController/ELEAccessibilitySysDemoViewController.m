@@ -35,7 +35,9 @@
     [btn setAccessibilityLabel:@"返回"];
     [self.view addSubview:btn];
     
+    
     //图片
+    //读出"图片-图像"
     UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(30, 140, 100, 30)];
     imageView.image = [UIImage imageNamed:str];
     imageView.isAccessibilityElement = YES;
