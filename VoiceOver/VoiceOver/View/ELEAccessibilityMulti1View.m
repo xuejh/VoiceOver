@@ -35,28 +35,28 @@
         view.frame = CGRectMake(30,240 , 200, 100);
         [self addSubview:view];
         
-        self.manage = [[ELEAccessibilityManage alloc]init];
-        self.manage.array = @[label,slider,view];
+//        self.manage = [[ELEAccessibilityManage alloc]init];
+//        self.manage.array = @[label,slider,view];
     }
     return self;
 }
 
 
--(BOOL)isAccessibilityElement
-{
-    return [self.manage isAccessibilityElement];
-}
-
-
-
-- (NSInteger)accessibilityElementCount
-{
-    return [self.manage accessibilityElementCount];
-}
-
-- (id)accessibilityElementAtIndex:(NSInteger)index
-{
-    return [self.manage accessibilityElementAtIndex:index];
-}
+//-(BOOL)isAccessibilityElement
+//{
+//    return [self.manage isAccessibilityElement];
+//}
+//
+//
+//
+//- (NSInteger)accessibilityElementCount
+//{
+//    return [self.manage accessibilityElementCount];
+//}
+//
+//- (id)accessibilityElementAtIndex:(NSInteger)index
+//{
+//    return [self.manage accessibilityElementAtIndex:index];
+//}
 
 @end

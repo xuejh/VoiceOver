@@ -30,27 +30,27 @@
         slider = [[UISlider alloc]initWithFrame:CGRectMake(0, 50,200 , 20)];
         [self addSubview:slider];
         
-        self.manage = [[ELEAccessibilityManage alloc]init];
-        self.manage.array = @[label,slider];
+//        self.manage = [[ELEAccessibilityManage alloc]init];
+//        self.manage.array = @[label,slider];
         
     }
     return self;
 }
 
--(BOOL)isAccessibilityElement
-{
-    return [self.manage isAccessibilityElement];
-}
-
-
-
-- (NSInteger)accessibilityElementCount
-{
-    return [self.manage accessibilityElementCount];
-}
-
-- (id)accessibilityElementAtIndex:(NSInteger)index
-{
-    return [self.manage accessibilityElementAtIndex:index];
-}
+//-(BOOL)isAccessibilityElement
+//{
+//    return [self.manage isAccessibilityElement];
+//}
+//
+//
+//
+//- (NSInteger)accessibilityElementCount
+//{
+//    return [self.manage accessibilityElementCount];
+//}
+//
+//- (id)accessibilityElementAtIndex:(NSInteger)index
+//{
+//    return [self.manage accessibilityElementAtIndex:index];
+//}
 @end

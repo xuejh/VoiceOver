@@ -17,6 +17,8 @@
 
 #import "ELEAccessibilityCustom2DemoViewController.h"
 
+#import "FatherAndSunView.h"
+
 @interface ELEAccessibilityDemoViewController ()
 
 @end
@@ -65,6 +67,9 @@
     [btn addTarget:self action:@selector(preBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
+    
+    FatherAndSunView * view = [[FatherAndSunView alloc]initWithFrame:CGRectMake(30, 270, 100, 30)];
+    [self.view addSubview:view];
 }
 
 
